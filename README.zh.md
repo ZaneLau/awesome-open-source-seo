@@ -23,6 +23,7 @@
 - [收录与站点地图](#收录与站点地图)
 - [CLI 工具集](#cli-工具集)
 - [其他精选清单](#其他精选清单)
+- [推荐组合](#推荐组合)
 
 ## 一站式平台
 
@@ -107,6 +108,22 @@
 - [awesome-seo (teles)](https://github.com/teles/awesome-seo) — 通用 SEO 链接精选。(885★)
 - [awesome-seo-tools (serpapi)](https://github.com/serpapi/awesome-seo-tools) — SEO 工具精选，含商业工具。(1.1k★)
 - [search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) — 清单式 SEO 资源合集。(2.8k★, MIT)
+
+## 推荐组合
+
+没有哪个开源工具能单挑 Semrush 或 Ahrefs，它们的护城河是外链库和搜索量数据。但执行层（审计、爬取、排名追踪、自有数据分析）已经成熟，组合一套能覆盖大部分日常需求。诚实的边界：要做竞品外链挖掘，留一个 Ahrefs/Semrush 只读账号买数据，执行和自有数据交给开源。
+
+**小站 / 独立站**
+
+- [SerpBear](https://github.com/towfiqi/serpbear)（排名） + [SEOnaut](https://github.com/StJudeWasHere/seonaut)（审计） + [Matomo](https://github.com/matomo-org/matomo) 或 [Plausible](https://github.com/plausible/analytics)（分析） + [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci)（CI 检查）
+
+**Agency**
+
+- [Seo-Panel](https://github.com/sendtogeo/Seo-Panel)（多站管理） + [SerpBear](https://github.com/towfiqi/serpbear) + GSC 批量导出（[google-search-console-export-all](https://github.com/swalker-888/google-search-console-export-all)） + [seonaut](https://github.com/StJudeWasHere/seonaut) 做定期爬取
+
+**开发者 / AI 工作流**
+
+- [zens-ink](https://github.com/ZensInk/zens-ink-seo-package) 或 [RustySEO](https://www.rustyseo.com/) 打底 + [scrapy](https://github.com/scrapy/scrapy) 补定制爬取 + [goaccess](https://github.com/allinurl/goaccess) 看原始日志 + [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) 做 LLM 辅助审计
 
 ## 贡献指南
 

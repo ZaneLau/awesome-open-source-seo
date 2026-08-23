@@ -23,6 +23,7 @@ Star counts are a snapshot (Aug 2026) — they drift, the code doesn't.
 - [Indexing & Sitemaps](#indexing--sitemaps)
 - [CLI Toolkits](#cli-toolkits)
 - [Other Curated Lists](#other-curated-lists)
+- [Recommended Stacks](#recommended-stacks)
 
 ## All-in-One Platforms
 
@@ -107,6 +108,22 @@ The newest category. These tools measure and improve how sites appear in AI answ
 - [awesome-seo (teles)](https://github.com/teles/awesome-seo) — General curated list of SEO links. (885★)
 - [awesome-seo-tools (serpapi)](https://github.com/serpapi/awesome-seo-tools) — Curated list of SEO tools, includes commercial ones. (1.1k★)
 - [search-engine-optimization](https://github.com/marcobiedermann/search-engine-optimization) — Checklist-style collection of SEO resources. (2.8k★, MIT)
+
+## Recommended Stacks
+
+No single open-source tool replaces Semrush or Ahrefs — the moat there is the backlink index and search-volume data. But execution-layer work (audits, crawling, rank tracking, first-party analytics) is mature. A combined stack covers most daily needs. The honest boundary: for competitive backlink mining, keep one paid Ahrefs/Semrush read-only account for data, and let open source handle execution and your own data.
+
+**Small sites / indie sites**
+
+- [SerpBear](https://github.com/towfiqi/serpbear) (rank tracking) + [SEOnaut](https://github.com/StJudeWasHere/seonaut) (audits) + [Matomo](https://github.com/matomo-org/matomo) or [Plausible](https://github.com/plausible/analytics) (analytics) + [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci) (CI checks)
+
+**Agencies**
+
+- [Seo-Panel](https://github.com/sendtogeo/Seo-Panel) (multi-site management) + [SerpBear](https://github.com/towfiqi/serpbear) + GSC bulk export ([google-search-console-export-all](https://github.com/swalker-888/google-search-console-export-all)) + [seonaut](https://github.com/StJudeWasHere/seonaut) for recurring crawls
+
+**Developers / AI workflows**
+
+- [zens-ink](https://github.com/ZensInk/zens-ink-seo-package) or [RustySEO](https://www.rustyseo.com/) as the base + [scrapy](https://github.com/scrapy/scrapy) for custom crawls + [goaccess](https://github.com/allinurl/goaccess) for raw logs + [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) for LLM-assisted audits
 
 ## Contributing
 
