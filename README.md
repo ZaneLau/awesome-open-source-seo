@@ -14,6 +14,9 @@ Star counts are a snapshot (Aug 2026) — they drift, the code doesn't.
 
 - [All-in-One Platforms](#all-in-one-platforms)
 - [Crawlers & Site Audit](#crawlers--site-audit)
+- [Rank Tracking](#rank-tracking)
+- [Analytics & Log Analysis](#analytics--log-analysis)
+- [GSC Data Extraction](#gsc-data-extraction)
 - [SERP & Keyword Research](#serp--keyword-research)
 - [GEO & AI Search Visibility](#geo--ai-search-visibility)
 - [Framework & CMS Integrations](#framework--cms-integrations)
@@ -34,6 +37,27 @@ Star counts are a snapshot (Aug 2026) — they drift, the code doesn't.
 - [seonaut](https://github.com/StJudeWasHere/seonaut) — Open-source SEO audit tool with a web interface. Self-hostable. (768★, MIT)
 - [crawlseo](https://github.com/crawlseo/crawlseo) — Open-source SEO monitoring: Search Console + crawler + Core Web Vitals in one. (554★, MIT)
 - [search-solved-public-seo](https://github.com/searchsolved/search-solved-public-seo) — Collection of practical Python SEO scripts by Lee Foot. (409★)
+- [lighthouse](https://github.com/GoogleChrome/lighthouse) — Google's official open-source auditor for performance, SEO, and best practices. Runs from CLI or CI. (30.7k★, Apache-2.0)
+- [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci) — Runs Lighthouse on every commit and asserts budgets in CI. (7.1k★, Apache-2.0)
+- [scrapy](https://github.com/scrapy/scrapy) — The Python crawling framework. Not an SEO tool per se, but the standard way to build custom crawlers for JS-rendered pages and structured extraction. (64k★, BSD-3-Clause)
+- [brozzler](https://github.com/internetarchive/brozzler) — Distributed, browser-based (Playwright) web crawler from the Internet Archive. (815★)
+
+### Rank Tracking
+
+- [SerpBear](https://github.com/towfiqi/serpbear) — Self-hosted rank tracker (Next.js + SQLite, Docker) with unlimited domains/keywords, GSC and Google Ads integration, Slack/Telegram alerts. The most-recommended self-hosted tracker. (1.4k★, GPL-3.0)
+- [serposcope](https://github.com/serphacker/serposcope) — Long-running self-hosted rank monitor (Java) with multi-region, proxy, and captcha support. Legacy but battle-tested. (757★, GPLv3)
+- [Seo-Panel](https://github.com/sendtogeo/Seo-Panel) — Multi-site SEO control panel (PHP + MySQL) with rank tracking, audits, backlink monitoring, and white-label reports for agencies. (137★, GPL-3.0)
+
+### Analytics & Log Analysis
+
+- [matomo](https://github.com/matomo-org/matomo) — Self-hosted Google Analytics alternative. First-party data, compliance-friendly. (21.8k★, GPL-3.0)
+- [plausible](https://github.com/plausible/analytics) — Lightweight, cookieless, privacy-first analytics. (28.7k★, AGPL-3.0)
+- [goaccess](https://github.com/allinurl/goaccess) — Real-time terminal log analyzer for Nginx/Apache. Watch Googlebot crawls, 404s, and bandwidth from raw logs — a technical SEO workhorse. (20.8k★, MIT)
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) — Search engine for large-scale log and clickstream queries, including crawl-behavior analysis. (13.6k★, Apache-2.0)
+
+### GSC Data Extraction
+
+- [google-search-console-export-all](https://github.com/swalker-888/google-search-console-export-all) — Bulk CSV export of Search Console data, bypassing the 1,000-row UI limit. (10★)
 
 ## SERP & Keyword Research
 
@@ -51,6 +75,7 @@ The newest category. These tools measure and improve how sites appear in AI answ
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — GEO content engineering and multi-site distribution system. (3.3k★, Apache-2.0)
 - [geolook](https://github.com/aigclink/geolook) — End-to-end GEO implementation: status analysis, diagnosis, and reporting. (581★, MIT)
 - [searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo) — Open-source AEO/GEO/SEO stack for AI-native websites. (96★, MIT)
+- [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) — Agent skill that runs a Python + LLM two-layer audit on any URL: robots, sitemap, canonicals, H1, schema, PSI. (729★, MIT)
 
 ## Framework & CMS Integrations
 
