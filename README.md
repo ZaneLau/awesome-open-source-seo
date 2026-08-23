@@ -1,5 +1,7 @@
 # Awesome Open-Source SEO
 
+**[中文版](./README.zh.md)**
+
 A curated list of open-source SEO tools you can self-host, fork, and read line by line.
 
 Every entry ships real source code under an open license. No SaaS trials, no affiliate links, no freemium walls.
