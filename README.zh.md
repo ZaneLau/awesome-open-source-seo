@@ -14,6 +14,9 @@
 
 - [一站式平台](#一站式平台)
 - [爬虫与站点审计](#爬虫与站点审计)
+- [排名追踪](#排名追踪)
+- [分析与日志](#分析与日志)
+- [GSC 数据导出](#gsc-数据导出)
 - [SERP 与关键词研究](#serp-与关键词研究)
 - [GEO 与 AI 搜索可见性](#geo-与-ai-搜索可见性)
 - [框架与 CMS 集成](#框架与-cms-集成)
@@ -34,6 +37,27 @@
 - [seonaut](https://github.com/StJudeWasHere/seonaut) — 带网页界面的开源 SEO 审计工具，可自托管。(768★, MIT)
 - [crawlseo](https://github.com/crawlseo/crawlseo) — 开源 SEO 监控：Search Console + 爬虫 + Core Web Vitals 三合一。(554★, MIT)
 - [search-solved-public-seo](https://github.com/searchsolved/search-solved-public-seo) — Lee Foot 的实用 Python SEO 脚本集。(409★)
+- [lighthouse](https://github.com/GoogleChrome/lighthouse) — Google 官方开源审计器，性能 + SEO + 最佳实践，CLI 或 CI 运行。(30.7k★, Apache-2.0)
+- [lighthouse-ci](https://github.com/GoogleChrome/lighthouse-ci) — 每次提交跑 Lighthouse 并在 CI 里断言预算。(7.1k★, Apache-2.0)
+- [scrapy](https://github.com/scrapy/scrapy) — Python 爬虫框架。本身不是 SEO 工具，但是给 JS 渲染页和定制化抽取写爬虫的标准方式。(64k★, BSD-3-Clause)
+- [brozzler](https://github.com/internetarchive/brozzler) — Internet Archive 出品的分布式浏览器（Playwright）爬虫。(815★)
+
+### 排名追踪
+
+- [SerpBear](https://github.com/towfiqi/serpbear) — 自托管排名追踪（Next.js + SQLite，Docker），无限域名/关键词，接 GSC 和 Google Ads，Slack/Telegram 告警。最常被推荐的自托管追踪器。(1.4k★, GPL-3.0)
+- [serposcope](https://github.com/serphacker/serposcope) — 老牌自托管排名监控（Java），多地区、代理、验证码支持。Legacy 但久经考验。(757★, GPLv3)
+- [Seo-Panel](https://github.com/sendtogeo/Seo-Panel) — 多站点 SEO 控制面板（PHP + MySQL），含排名、审计、外链监控、白标报告，适合 Agency。(137★, GPL-3.0)
+
+### 分析与日志
+
+- [matomo](https://github.com/matomo-org/matomo) — 自托管 Google Analytics 替代。一手数据，合规友好。(21.8k★, GPL-3.0)
+- [plausible](https://github.com/plausible/analytics) — 轻量、无 Cookie、隐私优先的分析。(28.7k★, AGPL-3.0)
+- [goaccess](https://github.com/allinurl/goaccess) — 实时终端日志分析器（Nginx/Apache）。从原始日志看 Googlebot 抓取、404、带宽，技术 SEO 神器。(20.8k★, MIT)
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) — 大规模日志与点击流查询的搜索引擎，含爬取行为分析。(13.6k★, Apache-2.0)
+
+### GSC 数据导出
+
+- [google-search-console-export-all](https://github.com/swalker-888/google-search-console-export-all) — 批量 CSV 导出 Search Console 数据，绕过界面 1000 行限制。(10★)
 
 ## SERP 与关键词研究
 
@@ -51,6 +75,7 @@
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) — GEO 内容工程与多站点分发系统。(3.3k★, Apache-2.0)
 - [geolook](https://github.com/aigclink/geolook) — 端到端 GEO 实现：状态分析、诊断、报告。(581★, MIT)
 - [searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo) — 面向 AI 原生站点的开源 AEO/GEO/SEO 技术栈。(96★, MIT)
+- [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) — Agent skill，Python + LLM 双层审计任意 URL：robots、sitemap、canonical、H1、schema、PSI。(729★, MIT)
 
 ## 框架与 CMS 集成
 
