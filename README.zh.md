@@ -2,6 +2,8 @@
 
 **[English version](./README.md)**
 
+**[网页版](https://zens.ink/zh/awesome)**
+
 一个只收录开源 SEO 工具的精选清单——可自托管、可 fork、可逐行读源码。
 
 每一条都是真实源码 + 开放协议。不收 SaaS 试用、不放联盟链接、不搞免费增值墙。

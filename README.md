@@ -2,6 +2,8 @@
 
 **[中文版](./README.zh.md)**
 
+**[Web version](https://zens.ink/awesome)**
+
 A curated list of open-source SEO tools you can self-host, fork, and read line by line.
 
 Every entry ships real source code under an open license. No SaaS trials, no affiliate links, no freemium walls.
