@@ -32,6 +32,7 @@ Star counts, activity badges and archive flags are refreshed automatically every
 - [GEO & AI Search Visibility](#geo--ai-search-visibility)
   - [Agent Skills & Prompt Libraries](#agent-skills--prompt-libraries)
   - [GEO Platforms & Auditors](#geo-platforms--auditors)
+  - [llms.txt Infrastructure](#llmstxt-infrastructure)
 - [Framework & CMS Integrations](#framework--cms-integrations)
   - [React & Next.js](#react--nextjs)
   - [PHP, WordPress & Laravel](#php-wordpress--laravel)
@@ -45,6 +46,7 @@ Star counts, activity badges and archive flags are refreshed automatically every
 ## All-in-One Platforms
 
 - [open-seo](https://github.com/every-app/open-seo) ![Self-host][Self-host Icon] ![Active][Active Icon] — Open-source alternative to Semrush and Ahrefs. The most complete attempt at a full suite so far. (22.5k★, MIT)
+- [rankme.fast](https://github.com/SelmiAbderrahim/rankme.fast) ![Self-host][Self-host Icon] ![Active][Active Icon] — Self-hosted SEO platform in active early development: rank tracking, audits, and reporting under one roof. (631★, AGPL-3.0)
 
 ## Crawlers & Site Audit
 
@@ -111,15 +113,31 @@ The newest category. These tools measure and improve how sites appear in AI answ
 
 - [claude-seo](https://github.com/AgriciDaniel/claude-seo) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Universal SEO skill for Claude Code: 25 sub-skills and 18 sub-agents covering audit, content, and technical work. (18.4k★, MIT)
 - [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO-first SEO skill for AI coding assistants, focused on AI-search optimization. (10.9k★, MIT)
+- [seomachine](https://github.com/TheCraigHewitt/seomachine) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Claude Code workspace for producing long-form, SEO-optimized content end to end, from keyword to published draft. (7.5k★, MIT)
+- [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Free SEO MCP server plus skills for Claude: keyword research, rank tracking, audits. Speaks the protocol your agent already uses. (4.6k★, MIT)
 - [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Open-source SEO, GEO, and marketing skills for AI agents. (3.9k★, MIT)
+- [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Claude Code skill for AEO/GEO: instrument your site so AI engines cite it, from a tag-management angle. (1.3k★, MIT)
+- [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) ![GEO/AI][GEO Icon] ![Active][Active Icon] — AEO & GEO audit toolkit: run the checks, get a prioritized fix list for AI-search visibility. (1k★, MIT)
+- [codex-seo](https://github.com/AgriciDaniel/codex-seo) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Codex-first sibling of the claude-seo suite: 26 workflows and 24 TOML agents for technical SEO. (799★)
 - [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Agent skill that runs a Python + LLM two-layer audit on any URL: robots, sitemap, canonicals, H1, schema, PSI. (761★, MIT)
+- [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) ![GEO/AI][GEO Icon] ![Active][Active Icon] — One skill that audits and optimizes SEO, AEO, and GEO — every acronym the AI-search era has coined. (709★, MIT)
+- [seo-ops](https://github.com/tigerless-labs/seo-ops) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Agent skill that fetches a URL and returns a crawler's-eye pass/fail report on the SEO fundamentals. (700★)
 - [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Google's SEO documentation turned into an AI prompt library. (556★, MIT)
 
 ### GEO Platforms & Auditors
 
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO content engineering and multi-site distribution system. (3.8k★, Apache-2.0)
 - [geolook](https://github.com/aigclink/geolook) ![GEO/AI][GEO Icon] ![Active][Active Icon] — End-to-end GEO implementation: status analysis, diagnosis, and reporting. (749★, MIT)
+- [GEORank](https://github.com/yaojingang/GEORank) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO ranking platform from the GEOFlow author: track how sites surface in generative-engine answers. (492★, Apache-2.0)
+- [elmo](https://github.com/elmohq/elmo) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — Open-source AEO/GEO platform: measure and improve how your site shows up in AI answers. (420★, MIT)
+- [notra](https://github.com/usenotra/notra) ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO monitoring that asks ChatGPT, Claude, and Gemini the questions your buyers ask, then tracks who gets cited. (256★, AGPL-3.0)
+- [AutoGEO](https://github.com/cxcscmu/AutoGEO) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Research-grade GEO framework (ICLR'26): automatically learns which content edits move generative-engine rankings. (224★, MIT)
 - [searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — Open-source AEO/GEO/SEO stack for AI-native websites. (104★, MIT)
+
+### llms.txt Infrastructure
+
+- [llms-txt](https://github.com/AnswerDotAI/llms-txt) ![GEO/AI][GEO Icon] ![Active][Active Icon] — The llms.txt proposal itself, by Answer.ai: a markdown map that helps language models use your site. The convention most GEO tools write for. (2.7k★, Apache-2.0)
+- [llmstxt-generator](https://github.com/firecrawl/llmstxt-generator) ![GEO/AI][GEO Icon] — Firecrawl's generator that turns any website into llms.txt + llms-full.txt. Unmaintained but still the simplest path. (539★)
 
 ## Framework & CMS Integrations
 

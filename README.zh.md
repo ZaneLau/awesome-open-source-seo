@@ -32,6 +32,7 @@
 - [GEO 与 AI 搜索可见性](#geo-与-ai-搜索可见性)
   - [Agent 技能与提示词库](#agent-技能与提示词库)
   - [GEO 平台与审计器](#geo-平台与审计器)
+  - [llms.txt 基础设施](#llmstxt-基础设施)
 - [框架与 CMS 集成](#框架与-cms-集成)
   - [React 与 Next.js](#react-与-nextjs)
   - [PHP、WordPress 与 Laravel](#phpwordpress-与-laravel)
@@ -45,6 +46,7 @@
 ## 一站式平台
 
 - [open-seo](https://github.com/every-app/open-seo) ![Self-host][Self-host Icon] ![Active][Active Icon] — Semrush 和 Ahrefs 的开源替代，目前最完整的一站式尝试。(22.5k★, MIT)
+- [rankme.fast](https://github.com/SelmiAbderrahim/rankme.fast) ![Self-host][Self-host Icon] ![Active][Active Icon] — 自托管 SEO 平台，早期开发活跃：排名追踪、审计、报告一体。(631★, AGPL-3.0)
 
 ## 爬虫与站点审计
 
@@ -111,15 +113,31 @@
 
 - [claude-seo](https://github.com/AgriciDaniel/claude-seo) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Claude Code 的通用 SEO 技能：25 个子技能 + 18 个子代理，覆盖审计、内容与技术 SEO。(18.4k★, MIT)
 - [geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO 优先的 SEO 技能，专注 AI 搜索优化。(10.9k★, MIT)
+- [seomachine](https://github.com/TheCraigHewitt/seomachine) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Claude Code 工作区，端到端产出 SEO 长文：从关键词到可发布草稿。(7.5k★, MIT)
+- [open-seo-mcp-skills](https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 免费 SEO MCP server + Claude 技能：关键词研究、排名追踪、审计，agent 直接调用。(4.6k★, MIT)
 - [notfair-plugin](https://github.com/nowork-studio/notfair-plugin) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 给 AI agent 用的开源 SEO、GEO 和营销技能。(3.9k★, MIT)
+- [gtm-engineer-skills](https://github.com/onvoyage-ai/gtm-engineer-skills) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Claude Code 的 AEO/GEO 技能：从标签管理角度埋好站点，让 AI 引擎引用你。(1.3k★, MIT)
+- [geo-optimizer-skill](https://github.com/Auriti-Labs/geo-optimizer-skill) ![GEO/AI][GEO Icon] ![Active][Active Icon] — AEO/GEO 审计工具包：跑完检查项，输出 AI 搜索可见性优先修复清单。(1k★, MIT)
+- [codex-seo](https://github.com/AgriciDaniel/codex-seo) ![GEO/AI][GEO Icon] ![Active][Active Icon] — claude-seo 套件的 Codex 版：26 个工作流 + 24 个 TOML agent。(799★)
 - [seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Agent skill，Python + LLM 双层审计任意 URL：robots、sitemap、canonical、H1、schema、PSI。(761★, MIT)
+- [fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 一个技能审计并优化 SEO、AEO、GEO 全家桶。(709★, MIT)
+- [seo-ops](https://github.com/tigerless-labs/seo-ops) ![GEO/AI][GEO Icon] ![Active][Active Icon] — Agent skill，给一个 URL，返回爬虫视角的 SEO 基础项通过/失败报告。(700★)
 - [Seo-Promt-Master](https://github.com/umutxyp/Seo-Promt-Master) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 把 Google SEO 官方文档做成的 AI 提示词库。(556★, MIT)
 
 ### GEO 平台与审计器
 
 - [GEOFlow](https://github.com/yaojingang/GEOFlow) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEO 内容工程与多站点分发系统。(3.8k★, Apache-2.0)
 - [geolook](https://github.com/aigclink/geolook) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 端到端 GEO 实现：状态分析、诊断、报告。(749★, MIT)
+- [GEORank](https://github.com/yaojingang/GEORank) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — GEOFlow 作者出品的 GEO 排名平台：追踪站点在生成式引擎回答中的浮现。(492★, Apache-2.0)
+- [elmo](https://github.com/elmohq/elmo) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — 开源 AEO/GEO 平台：度量并改进站点在 AI 回答中的呈现。(420★, MIT)
+- [notra](https://github.com/usenotra/notra) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 问 ChatGPT、Claude、Gemini 买家会问的问题，追踪谁被引用。(256★, AGPL-3.0)
+- [AutoGEO](https://github.com/cxcscmu/AutoGEO) ![GEO/AI][GEO Icon] ![Active][Active Icon] — 学术派 GEO 框架（ICLR'26）：自动学习哪些内容编辑能搞动生成式引擎排名。(224★, MIT)
 - [searchstack-aeo](https://github.com/alexpospekhov/searchstack-aeo) ![Self-host][Self-host Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — 面向 AI 原生站点的开源 AEO/GEO/SEO 技术栈。(104★, MIT)
+
+### llms.txt 基础设施
+
+- [llms-txt](https://github.com/AnswerDotAI/llms-txt) ![GEO/AI][GEO Icon] ![Active][Active Icon] — llms.txt 提案本体（Answer.ai 出品）：帮语言模型读懂你站点的 markdown 地图，多数 GEO 工具为之写文件。(2.7k★, Apache-2.0)
+- [llmstxt-generator](https://github.com/firecrawl/llmstxt-generator) ![GEO/AI][GEO Icon] — Firecrawl 的生成器，把任意网站转成 llms.txt + llms-full.txt。已停更但仍是最省事的路径。(539★)
 
 ## 框架与 CMS 集成
 
