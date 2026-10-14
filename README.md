@@ -171,7 +171,7 @@ The newest category. These tools measure and improve how sites appear in AI answ
 
 ## CLI Toolkits
 
-- [zens-ink](https://github.com/ZensInk/zens-ink-seo-package) ![CLI][CLI Icon] ![Active][Active Icon] — Maintained by this organization. Zero-dependency Python CLI with 19 tools: keyword research, SERP difficulty scoring, technical site audit, and a 16-dimension GEO score. On PyPI as `zens-ink`. (53★, MIT)
+- [zens-ink](https://github.com/ZensInk/zens-ink-seo-package) ![CLI][CLI Icon] ![GEO/AI][GEO Icon] ![Active][Active Icon] — Maintained by this organization. Zero-dependency Python CLI with 22 tools: keyword research, SERP difficulty scoring, technical site audit, and a 16-dimension GEO score. On PyPI as `zens-ink`. Ships 9 installable agent skills (`npx skills add ZensInk/zens-ink-seo-package`) covering keyword research, difficulty, intent, audits, competitor gaps, rank tracking, Reddit mining, and GEO readiness. (53★, MIT)
 
 ## Other Curated Lists
 
