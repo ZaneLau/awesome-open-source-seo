@@ -14,6 +14,14 @@ Every entry ships real source code under an open license. No SaaS trials, no aff
 
 Star counts, activity badges and archive flags are refreshed automatically every month by [this script](./scripts/refresh.py) — no stale snapshots. Last refresh: Oct 2026.
 
+**Featured on this list?** Grab a badge for your README:
+
+[![Featured in Awesome Open-Source SEO](https://img.shields.io/badge/Featured_in-Awesome_Open--Source_SEO-7c3aed?style=for-the-badge)](https://zens.ink/awesome)
+
+````md
+[![Featured in Awesome Open-Source SEO](https://img.shields.io/badge/Featured_in-Awesome_Open--Source_SEO-7c3aed?style=for-the-badge)](https://zens.ink/awesome)
+````
+
 ## Contents
 
 - [All-in-One Platforms](#all-in-one-platforms)
